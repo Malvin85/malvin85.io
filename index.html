@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Malvin King - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <img src="images/profile.jpeg" alt="Foto Profil" class="profile-pic" />
+      <h1>Malvin <span>King</span></h1>
+      <p class="role">FullStack Developer</p>
+      <div class="social-icons">
+        <a href="https://linkedin.com/in/your-username" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://x.com/your-username" target="_blank"><i class="fab fa-x"></i></a>
+        <a href="https://github.com/your-username" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+      <div class="info">
+        <p>📞 +6285387884696</p>
+        <p>📧 grand2.77888@gmail.com</p>
+        <p>📍 Pontianak, Indonesia</p>
+      </div>
+      <a href="#" class="download-btn">⬇ Download Resume</a>
+    </aside>
+
+    <main class="main">
+      <nav class="nav-buttons">
+        <button class="tab-button active" data-tab="home">🏠 Home</button>
+        <button class="tab-button" data-tab="resume">📄 Resume</button>
+        <button class="tab-button" data-tab="work">🛠 Work</button>
+        <button class="tab-button" data-tab="contact">📞 Contact</button>
+      </nav>
+
+      <section id="home" class="tab-content active">
+        <section class="about">
+          <h2>ABOUT ME</h2>
+          <p>Halo! Saya senang menyambut Anda di portofolio saya. Saya adalah pengembang full-stack yang bersemangat dan serba bisa dengan minat yang besar dalam mengeksplorasi teknologi mutakhir terkini.</p>
+          <p>Perjalanan saya di dunia pengembangan web sungguh mengasyikkan, dan saya terus berupaya meningkatkan keterampilan saya dan mengikuti tren yang muncul di industri ini.</p>
+        </section>
+
+        <section class="what-i-do">
+          <h3>What I do!</h3>
+          <div class="cards">
+            <div class="card orange">
+              <h4>💻 Web Development</h4>
+              <p>Saya suka bekerja dengan NEXT.js untuk membuat aplikasi yang mudah diskalakan dan ramah pengguna.</p>
+            </div>
+            <div class="card blue">
+              <h4>📱 App Development</h4>
+              <p>Teknologi seluler modern membantu saya mewujudkan ide hebat menjadi kenyataan.</p>
+            </div>
+            <div class="card yellow">
+              <h4>🎨 UI/UX Designing</h4>
+              <p>Menciptakan antarmuka yang intuitif dan indah adalah hasrvat saya.</p>
+            </div>
+            <div class="card orange">
+              <h4>🎓 Mentorship</h4>
+              <p>Saya berbagi apa yang saya ketahui untuk membantu mengembangkan komunitas pengembang.</p>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section id="resume" class="tab-content">
+        <h2>Resume</h2>
+        <div class="resume-grid">
+          <div class="education">
+            <h3>🎓 Education</h3>
+            <div class="card">
+              <p>2020–2021<br><strong>Software Development</strong><br>Gink School</p>
+            </div>
+            <div class="card">
+              <p>2012–2016<br><strong>Disaster Management</strong><br>Widya Dharma University</p>
+            </div>
+          </div>
+          <div class="experience">
+            <h3>💼 Experience</h3>
+            <div class="card">
+              <p>2022 – Present<br><strong>Technical Mentor</strong><br>Gink School</p>
+            </div>
+            <div class="card">
+              <p>2021–2022<br><strong>Website Development</strong><br>Village x Nation</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills">
+          <div>
+            <h3>Work Skills</h3>
+            <div class="tags">
+              <span>NEXT.js</span><span>React.js</span><span>HTML 5</span>
+              <span>CSS 3</span><span>Tailwind CSS</span><span>Figma</span>
+              <span>JavaScript</span><span>Mongo DB</span><span>SQL</span>
+              <span>Angular</span><span>Android</span><span>Git</span>
+            </div>
+          </div>
+          <div>
+            <h3>Soft Skills</h3>
+            <div class="tags">
+              <span>Time Management</span><span>Mentorship</span><span>Communication</span>
+              <span>Flexibility</span><span>Research</span><span>Writing</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="tab-content">
+        <h2>Work</h2>
+        <div class="projects">
+          <div class="project-card">
+            <img src="images/bank-app.jpg" alt="Smart Bank App">
+            <p class="category">App Development</p>
+            <h3>Smart Bank App</h3>
+          </div>
+          <div class="project-card">
+            <img src="images/blog.jpg" alt="Blog">
+            <p class="category">Blog</p>
+            <h3>NEXT.js</h3>
+          </div>
+          <div class="project-card">
+            <img src="images/rental.png" alt="Rental UI">
+            <p class="category">UI/UX</p>
+            <h3>Rental</h3>
+          </div>
+          <div class="project-card">
+            <img src="images/mentor.png" alt="Tech Mentor">
+            <p class="category">Mentorship</p>
+            <h3>Tech Mentor</h3>
+          </div>
+          <div class="project-card">
+            <img src="images/webdev.png" alt="IdeaFlow">
+            <p class="category">Web Development</p>
+            <h3>IdeaFlow</h3>
+          </div>
+      </section>
+
+      <section id="contact" class="tab-content">
+        <h2>Contact</h2>
+        <div class="contact-info">
+          <div class="contact-box phone">
+            <p>📞 Phone:</p>
+            <p>+6283878846498</p>
+            <p>+621567155290</p>
+          </div>
+          <div class="contact-box email">
+            <p>📧 Email:</p>
+            <p>grand2.77888@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-form">
+          <p>I am always open to discussing <strong>new projects</strong>, <strong>opportunities</strong> in tech, or <strong>mentorship</strong>.</p>
+          <form>
+            <input type="text" placeholder="Name" required />
+            <input type="email" placeholder="Email" required />
+            <textarea rows="5" placeholder="Message" required></textarea>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    const tabs = document.querySelectorAll('.tab-button');
+    const contents = document.querySelectorAll('.tab-content');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(btn => btn.classList.remove('active'));
+        contents.forEach(content => content.classList.remove('active'));
+
+        tab.classList.add('active');
+        document.getElementById(tab.dataset.tab).classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
